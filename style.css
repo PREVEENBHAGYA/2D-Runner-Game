@@ -1,0 +1,182 @@
+.background{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url("vector.png");
+    background-repeat: repeat-x;
+    /*background-color: antiquewhite;*/
+    background-size: 100% 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    
+}
+
+.boy{
+    height: 200px;
+    margin-top: 370px;
+    margin-left: 100px;
+    position: absolute; 
+}
+
+.score{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: "Arial";
+    font-weight: bold;
+    color: rgb(232, 248, 8);
+}
+
+.box{
+    position: absolute;
+    width: 35px;
+    height: 120px;
+    background-image: url("flame.gif");
+    background-size: 50px 100%;
+    /*background-color: black;*/
+    margin-top: 480px;
+}
+
+.body{
+    margin: 0px;
+}
+
+.end{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgb(241, 68, 203) , rgb(26, 56, 70)) ;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bolder;
+    color: rgb(217, 255, 4);
+    font-family: "sans-serif";
+    opacity: 0.8;
+    visibility: hidden;
+}
+
+
+.newGame{
+     margin-top: 20px;
+     width: 200px;
+     height: 40px;
+
+}
+
+.d1{
+   width: 400px;
+   height: 110px;
+   margin-left: 0px;
+   margin-top: -290px;
+   position: absolute;
+   font-size: 100px;
+}
+
+.d2{
+    width: 400px;
+    height: 10px;
+    margin-left: 110px;
+    margin-top: -150px;
+    position: absolute;
+    font-size: 100px; 
+}
+
+.win{
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+    position: absolute;
+    background-image: linear-gradient( red, yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ 
+
+.gif{
+    width: 220px;
+    height: 154px;
+    border-radius: 20px;
+    margin-top: -300px;
+    position: absolute;
+    background-color: aqua;
+    background-image: url("gameover.gif");
+}
+
+.you{
+    width: 430px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-top: 180px;
+    background-image: url("you.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn1{
+    width: 300px;
+    height: 50px;
+    margin-top: 450px;
+    margin-left: -40px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(255, 5, 5);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: rgb(206, 223, 111);
+}
+
+.div2{
+    font-family: "Arial";
+    font-size: 80px;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.div3{
+    margin-top: 170px;
+    position: absolute;
+}
+
+.d4{
+    width: 150px;
+    height: 100px;
+    font-size: 90px;
+    margin-top: 170px;
+}
+
+
+.btn{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(255, 5, 5);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: rgb(206, 223, 111);
+    margin-top: 370px;
+}
+
+.btn:hover{
+    color: crimson;
+    background-color: rgb(51, 51, 45);
+    cursor: pointer;
+    flex-grow: inherit;
+}

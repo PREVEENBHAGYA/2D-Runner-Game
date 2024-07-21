@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> RUNNER BOY </title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="Idle (1).png" </head>
+
+<body onload="createboxes();" onkeyup="keyCheck(event);" class="body">
+
+  <div id="background" class="background">
+    <div class="score" id="score">Score 0</div>
+    <img id="boy" class="boy" src="Run (1).png" />
+  </div>
+
+  <div class="end" id="end">
+    <div class="gif"></div>
+
+    <div class="div2"> Your Score</div>
+    <div class="div3" id="endscore"> 0 </div>
+    <button onclick="reload();" class="btn"> Try Again </button>
+  </div>
+
+  <div class="win" id="win">
+    <div class="d1">You Win</div>
+    <div class="d2"> score </div>
+    <div class="d4" id="endscore">460</div>
+    <button onclick="reload();" class="btn1"> NEW GAME </button>
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
